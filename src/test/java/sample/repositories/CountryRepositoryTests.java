@@ -17,14 +17,6 @@ public class CountryRepositoryTests {
     @Autowired
     CountryRepository db;
 
-    @Autowired
-    EntityManager em;
-
-    @BeforeEach
-    void setUp() {
-        em.clear();
-    }
-
     @Test
     void testQuery() {
         List<Country> l = db.queryWithHint();
