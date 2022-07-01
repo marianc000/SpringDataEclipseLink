@@ -1,0 +1,78 @@
+* {
+    font-family: Arial;
+    color: darkslategrey;
+}
+
+.row>div {
+    display: inline-block;
+}
+
+
+.row>div:nth-child(1) {
+    width: 6em
+}
+
+.row>div:nth-child(2) {
+    width: 11em;
+}
+
+
+.row>div:nth-child(3) {
+    width: 15em;
+}
+
+.hiddentrue {
+    visibility: hidden;
+}
+
+.p0 {
+    border-top: 1px solid grey;
+}
+
+.country {
+    visibility: hidden;
+}
+
+.country.a0.p0 {
+    visibility: visible;
+}
+
+.author {
+    visibility: hidden;
+}
+
+.author.p0 {
+    visibility: visible;
+}
+
+.row.header {
+    font-weight: bold;
+}
+
+div#rootDiv {
+    margin: 1em;
+    position: relative;
+}
+
+.table {
+
+    display: inline-block;
+
+    padding: 1em;
+
+
+
+    vertical-align: top;
+
+
+    background-color: ivory;
+
+    margin: 1em;
+
+}
+
+
+.caption {
+    font-size: 1.2em;
+    color: brown;
+}
